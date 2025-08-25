@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\BuildingBlocks",
+    "\\src\\BuildingBlocks\\Application",
+    "\\src\\BuildingBlocks\\Application\\obj",
+    "\\src\\BuildingBlocks\\Application\\Orders",
+    "\\src\\BuildingBlocks\\Domain"
+  ],
+  "SelectedNode": "\\src\\cp4net-ecommerce-microservices-starter.sln",
+  "PreviewInSolutionExplorer": false
+}

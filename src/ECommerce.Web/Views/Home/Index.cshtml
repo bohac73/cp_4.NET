@@ -1,0 +1,27 @@
+
+@model IEnumerable<ECommerce.Web.Controllers.ProductVm>
+
+<div class="container mt-4">
+    <h1>Catalog</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th class="text-end">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td>@p.Id</td>
+                    <td>@p.Name</td>
+                    <td>@p.Description</td>
+                    <td class="text-end">@p.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
